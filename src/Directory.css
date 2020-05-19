@@ -1,0 +1,10 @@
+.directory {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.icon {
+  margin: 10px;
+  color: #3b3b3b;
+}

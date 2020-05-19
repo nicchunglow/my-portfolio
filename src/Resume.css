@@ -1,0 +1,8 @@
+.download {
+  text-decoration: none;
+  font-size: large;
+  color: rgb(185, 45, 10);
+}
+.download:hover{
+  color: #ee622b;
+}

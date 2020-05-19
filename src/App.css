@@ -6,12 +6,10 @@
   background-image: linear-gradient(-225deg, #d9f3e8 0%, #50bec2 100%);
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   font-size: calc(10px + 2vmin);
 }
-
-
 
 h2 {
   color: #3b3b3b;
@@ -23,9 +21,16 @@ h4 {
   color: #3b3b3b;
   font-family: Helvetica, sans-serif;
 }
+h5 {
+  color: #3b3b3b;
+  font-family: Helvetica, sans-serif;
+  font-size: x-large;
+}
 
 p {
   color: #3b3b3b;
   font-family: Helvetica, sans-serif;
   margin: auto;
+  font-size: large;
+  font-style: italic;
 }
