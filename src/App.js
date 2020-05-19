@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App-header">
       <Container className="App">
-        <h1>Nicholas Chung Zhen Yang</h1>
-        <h3>Software Developer</h3>
-        <h3>Past Projects</h3>
+        <h2>Nicholas Chung Zhen Yang</h2>
+        <p>Marketer turned Software Developer</p>
+        <h4>Past Projects</h4>
         <div className="flex">
           <DancerNetwork />
           <Snaphunt />
