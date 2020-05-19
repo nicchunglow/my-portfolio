@@ -15,16 +15,15 @@ import { cyan} from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    textAlign: "center",
+    width: "100%",
+    maxWidth: "600px",
+    marginTop: "50px"
   },
   media: {
     height: 300,
-    width: 550,
   },
-  imageFlex: {
-    display: "flex",
-    flexDirection: "row",
-    flexGrow: "initial",
+  text: {
+    width: 500,
   },
   header: {
     backgroundColor: cyan[100],
@@ -33,8 +32,8 @@ const useStyles = makeStyles((theme) => ({
 const Snaphunt = () => {
   const classes = useStyles();
   return (
-    <Container>
-  <Card elevation={3} className={classes.root}>
+    <Container className={classes.root}>
+  <Card elevation={3} >
     <CardHeader
     className={classes.header}
       title="Snaphunt Content Management System"

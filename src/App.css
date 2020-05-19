@@ -9,14 +9,9 @@
   flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.flex {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-}
+
 
 h2 {
   color: #3b3b3b;

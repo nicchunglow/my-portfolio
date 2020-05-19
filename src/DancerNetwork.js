@@ -15,10 +15,11 @@ import { cyan } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    width: "100%",
+    maxWidth: "600px",
   },
   media: {
     height: 300,
-    justifyItems: "stretch",
   },
   text: {
     width: 500,
