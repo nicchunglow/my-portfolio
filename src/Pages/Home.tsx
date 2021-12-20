@@ -9,6 +9,7 @@ const Home: React.FC = () => {
         <div className="pt-5 capitalize">
           <h2 className="font-bold text-xl">Nicholas Chung</h2>
           <p>Full Stack Developer</p>
+          <p>JS/TS</p>
           <span className="flex flex-row">
             <h4>Coding motto - </h4>
             <p>"leave the code better than you found it"</p>
