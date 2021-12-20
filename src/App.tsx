@@ -6,12 +6,14 @@ import {
 } from "react-router-dom";
 
 
-const AppWrapper = () => (
+const App = () => (
   <BrowserRouter>
+      <div className="font-mono text-center">
 		<Routes>
 			<Route path="/" element={<Home />} />
 		</Routes>
+    </div>
   </BrowserRouter>
 );
 
-export default AppWrapper;
+export default App;
