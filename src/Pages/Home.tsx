@@ -3,7 +3,7 @@ import myAvatar from "../myAvatar.svg";
 import Button from "../Components/Button"
 const Home: React.FC = () => {
   return (
-      <div className="flex flex-col bg-neutral-600 min-h-screen justify-center	items-center">
+      <div className="flex flex-col bg-white-600 min-h-screen justify-center	items-center">
         <img src={myAvatar} className="rounded-full bg-orange-500" alt="profile" title="Hi! I'm tooltip" />
         <div className="pt-5 capitalize">
           <h2 className="font-bold text-xl">Nicholas Chung</h2>
