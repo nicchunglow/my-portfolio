@@ -5,7 +5,7 @@ interface IButton {
   location: string;
 }
 
-const Button = ({ text, location }: IButton) => {
+const NavigationButton = ({ text, location }: IButton) => {
   const navigate = useNavigate();
   return (
     <button className="bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded" onClick={() => navigate(location)}>
@@ -14,4 +14,4 @@ const Button = ({ text, location }: IButton) => {
   );
 };
 
-export default Button;
+export default NavigationButton;
