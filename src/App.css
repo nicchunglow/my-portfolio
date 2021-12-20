@@ -1,20 +1,18 @@
+/* stylelint-disable unit-allowed-list */
 .App {
   text-align: center;
+  font-family: monospace;
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  pointer-events: none;  
+  background-color: #d49008;
+  border-radius: 100%;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #333230;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +26,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

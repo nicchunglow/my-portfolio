@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import myAvatar from "./myAvatar.svg";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="font-mono text-center">
+      <header className="flex flex-col bg-neutral-600 min-h-screen justify-center	items-center">
+        <img src={myAvatar} className="rounded-full bg-orange-500	" alt="profile" />
+        <div className="pt-5 capitalize">
+          <h2 className="font-bold text-xl">Nicholas Chung</h2>
+          <p>Full Stack Developer</p>
+          <span className="flex flex-row">
+            <h4>Coding motto - </h4>
+            <p>"leave the code better than you found it"</p>
+          </span>
+        </div>
       </header>
     </div>
   );
-}
+};
 
 export default App;
