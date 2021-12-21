@@ -90,6 +90,7 @@ const DevOpsArr: ISkills[] = [
     imageLink: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg",
   },
 ];
+
 const versionControlArr: ISkills[] = [
   {
     name: "Git",
@@ -107,6 +108,7 @@ const versionControlArr: ISkills[] = [
     imageLink: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Bitbucket-blue-logomark-only.svg",
   },
 ];
+
 const AgileArr: ISkills[] = [
   {
     name: "Sprints",

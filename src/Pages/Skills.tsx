@@ -1,5 +1,4 @@
 import React from "react";
-import NavigationButton from "../Components/NavigationButton";
 import AllSkills from "../Constants/Skills.constants";
 
 const Skills: React.FC = () => {

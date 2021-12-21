@@ -1,5 +1,4 @@
 import React from "react";
-import myAvatar from "../myAvatar.svg";
 import NavigationButton from "../Components/NavigationButton";
 
 const About: React.FC = () => {
