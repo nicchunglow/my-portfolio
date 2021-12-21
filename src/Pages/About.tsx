@@ -4,8 +4,7 @@ import NavigationButton from "../Components/NavigationButton";
 
 const About: React.FC = () => {
   return (
-    <div id="AboutMe" className="flex flex-col justify-center items-center w-1/2 ">
-      <img src={myAvatar} className="rounded-full bg-orange-500 mt-10 w-1/5 min-w-[100px]" alt="profile" />
+    <div id="about-me" className="flex flex-col justify-center items-center w-1/2 pt-12">
       <div className="mt-10">
         <h2 className="font-bold text-3xl ">About</h2>
         <p className="font-extralight">Nicholas Chung</p>

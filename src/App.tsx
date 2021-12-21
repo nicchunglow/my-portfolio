@@ -5,8 +5,8 @@ import Skills from "./Pages/Skills";
 import { Link } from "react-scroll";
 
 const headersArr: any = [
-  { link: "Home", name: "Home" },
-  { link: "AboutMe", name: "About" },
+  { link: "home", name: "Home" },
+  { link: "about-me", name: "About" },
   { link: "all-skills", name: "Skills" },
 ];
 const NavLink = (link: string, name: string) => {
@@ -27,10 +27,11 @@ const App = () => (
         return NavLink(header.link, header.name);
       })}
     </header>
-    <div className="flex flex-col justify-center items-center font-sans">
+    <div className="flex flex-col justify-center items-center font-sans my-10">
       <Home />
       <About />
       <Skills />
+      <p className="font-thin mt-20">Copyright © 2021 Nicholas Chung</p>
     </div>
   </BrowserRouter>
 );
