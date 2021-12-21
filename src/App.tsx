@@ -9,7 +9,7 @@ import {
 
 const App = () => (
   <BrowserRouter>
-      <div className="font-mono text-center">
+      <div className="flex justify-center font-sans">
 		<Routes>
 			<Route path="/" element={<Home />} />
 			<Route path="/about" element={<About />} />
