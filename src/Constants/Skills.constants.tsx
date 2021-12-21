@@ -1,6 +1,6 @@
 import { ISkills } from "../Model/Skills.Model";
 
-const languageArr: ISkills[] = [
+export const languageArr: ISkills[] = [
   {
     name: "JavaScript",
     imageLink: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
@@ -10,7 +10,7 @@ const languageArr: ISkills[] = [
     imageLink: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
   },
 ];
-const frameworkArr: ISkills[] = [
+export const frameworkArr: ISkills[] = [
   {
     name: "Node.js",
     imageLink: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
@@ -61,7 +61,7 @@ const frameworkArr: ISkills[] = [
   },
 ];
 
-const databaseArr: ISkills[] = [
+export const databaseArr: ISkills[] = [
   {
     name: "Mongodb",
     imageLink: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
@@ -76,7 +76,7 @@ const databaseArr: ISkills[] = [
   },
 ];
 
-const DevOpsArr: ISkills[] = [
+export const DevOpsArr: ISkills[] = [
   {
     name: "AWS",
     imageLink: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
@@ -91,7 +91,7 @@ const DevOpsArr: ISkills[] = [
   },
 ];
 
-const versionControlArr: ISkills[] = [
+export const versionControlArr: ISkills[] = [
   {
     name: "Git",
     imageLink: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
@@ -109,7 +109,7 @@ const versionControlArr: ISkills[] = [
   },
 ];
 
-const AgileArr: ISkills[] = [
+export const AgileArr: ISkills[] = [
   {
     name: "Sprints",
   },
@@ -124,4 +124,3 @@ const AgileArr: ISkills[] = [
   },
 ];
 
-export default { languageArr, frameworkArr, databaseArr, DevOpsArr, versionControlArr, AgileArr };

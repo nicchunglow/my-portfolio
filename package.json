@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build": "react-scripts build",
-    "build:css": "tailwind build -i src/style.css -o dist/style.css",
+    "build:css": "tailwind build -i src/index.css -o dist/index.css",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

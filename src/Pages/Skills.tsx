@@ -1,5 +1,5 @@
 import React from "react";
-import AllSkills from "../Constants/Skills.constants";
+import * as AllSkills from "../Constants/Skills.constants";
 
 const Skills: React.FC = () => {
   const card = (skill: any) => {
