@@ -12,7 +12,7 @@ const Skills: React.FC = () => {
     );
   };
   return (
-    <div className="flex flex-col capitalize mt-10 items-center">
+    <div id="all-skills" className="flex flex-col capitalize mt-10 items-center">
       <h2 className="font-thin text-3xl my-5 ">Skills Gallery</h2>
       <div className="flex justify-start">
       <NavigationButton text="Go Back" location={-1} />

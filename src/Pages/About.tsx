@@ -2,9 +2,9 @@ import React from "react";
 import myAvatar from "../myAvatar.svg";
 import NavigationButton from "../Components/NavigationButton";
 
-const Home: React.FC = () => {
+const About: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-1/2 ">
+    <div id="AboutMe" className="flex flex-col justify-center items-center w-1/2 ">
       <img src={myAvatar} className="rounded-full bg-orange-500 mt-10 w-1/5 min-w-[100px]" alt="profile" />
       <div className="mt-10">
         <h2 className="font-bold text-3xl ">About</h2>
@@ -32,4 +32,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default About;
