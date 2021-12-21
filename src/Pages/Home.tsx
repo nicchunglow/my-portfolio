@@ -4,14 +4,13 @@ import NavigationButton from "../Components/NavigationButton";
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col bg-white-600 min-h-screen justify-center	items-center">
+    <div className="flex flex-col bg-white-600 min-h-screen justify-center	items-center text-center">
       <img src={myAvatar} className="rounded-full bg-orange-500" alt="profile" title="Hi! I'm tooltip" />
       <div className="pt-5 capitalize">
         <h2 className="font-bold text-xl">Nicholas Chung</h2>
         <p>Full Stack Developer</p>
         <p>JS/TS</p>
-        <span className="flex flex-row">
-          <h4>Coding motto - </h4>
+        <span className="flex flex-row italic">
           <p>"leave the code better than you found it"</p>
         </span>
         <span className="my-5 flex justify-evenly">
