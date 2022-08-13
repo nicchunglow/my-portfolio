@@ -1,5 +1,4 @@
 import React from "react";
-import NavLink from "../Components/NavLink";
 
 const About: React.FC = () => {
   return (
