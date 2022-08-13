@@ -1,5 +1,5 @@
 import React from "react";
-import NavigationButton from "../Components/NavigationButton";
+import NavLink from "../Components/NavLink";
 
 const About: React.FC = () => {
   return (
@@ -22,9 +22,6 @@ const About: React.FC = () => {
           I'm a strong advocate in the Singapore street dance community. In my free time, I do sharing on the performing art as well as
           create opportunities within the community. Maybe this is where I can my passion for helping people through software development.
         </p>
-        <div className="mt-5">
-          <NavigationButton text="Go Back" location={-1} />
-        </div>
       </div>
     </div>
   );

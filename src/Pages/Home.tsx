@@ -1,6 +1,5 @@
 import React from "react";
 import myAvatar from "../myAvatar.svg";
-import NavigationButton from "../Components/NavigationButton";
 
 const Home: React.FC = () => {
   return (
@@ -14,9 +13,6 @@ const Home: React.FC = () => {
           <p>"leave the code better than you found it"</p>
         </span>
         <span className="my-5 flex justify-evenly">
-          <NavigationButton text="About" location="about" />
-          <NavigationButton text="Skills" location="skills" />
-          <NavigationButton text="Resume" location="resume" />
         </span>
       </div>
     </div>
