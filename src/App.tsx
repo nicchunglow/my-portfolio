@@ -3,6 +3,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Skills from "./Pages/Skills";
 import NavLink from "./Components/NavLink";
+import './App.css';
 
 const headersArr: any = [
   { link: "home", name: "Home" },
@@ -15,7 +16,7 @@ interface IHeader {
 }
 const App = () => (
   <BrowserRouter>
-    <header className="flex flex-row justify-evenly font-extralight sticky top-0 py-4 bg-white">
+    <header className="flex flex-row justify-evenly font-extralight sticky top-0 py-4" app-header-color>
       {headersArr.map((header: IHeader) => {
         return NavLink(header.link, header.name);
       })}

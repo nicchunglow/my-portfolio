@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 body {
+  position: sticky;
+  background: linear-gradient(0deg, rgba(255,255,252,1) 80%, rgba(190,183,164,1) 100%);
   margin: 0;
   font-family: 'Helvetica',
     sans-serif;
