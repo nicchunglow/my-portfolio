@@ -1,6 +1,6 @@
 import React from "react";
 import myAvatar from "../myAvatar.svg";
-import "./Home.css"
+import "./Home.css";
 
 const Home: React.FC = () => {
   return (
@@ -10,9 +10,9 @@ const Home: React.FC = () => {
         <div className="pt-5 capitalize">
           <h2 className="font-bold text-xl">Nicholas Chung</h2>
           <p>Full Stack Developer</p>
-          <p>JS/TS</p>
+          <p>JavaScript/TypeScript</p>
           <span className="flex flex-row italic">
-            <p>"leave the code better than you found it"</p>
+            <p>"Passion for Tech and Arts"</p>
           </span>
           <span className="my-5 flex justify-evenly"></span>
         </div>

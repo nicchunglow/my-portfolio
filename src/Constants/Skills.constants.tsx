@@ -37,7 +37,7 @@ export const frameworkArr: ISkills[] = [
   },
   {
     name: "Sequelize",
-    imageLink: "https://sequelize.org/master/image/brand_logo.png",
+    imageLink: "https://google.github.io/sqlcommenter/images/sequelize-logo.png",
   },
   {
     name: "koa",

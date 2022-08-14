@@ -10,7 +10,6 @@ const About: React.FC = () => {
         <div id="about-me" className="w-1/2 pt-12 pb-12">
           <div className="mt-10">
             <h2 className="font-bold text-3xl ">About</h2>
-            <p className="font-extralight">Nicholas Chung</p>
             <h2 className="font-bold text-2xl mt-10">Work</h2>
             <p className="font-extralight text-sm">
               Marketeer turned developer, I now work on both frontend and backend web development, using mainly JS/TS. I
@@ -19,14 +18,13 @@ const About: React.FC = () => {
             </p>
             <h2 className="font-bold text-2xl mt-10">Giving back</h2>
             <p className="font-extralight text-sm">
-              As part of my background, it is important to me to see people around me succeed. In efforts to do that, I
-              share my knowledge on web development and use software development as a new outlook in life.
+              As part of my background, it is important to me to see people around me succeed. Hence, I actively share
+              my knowledge on web development through teaching, opportunities and mentorship.
             </p>
             <h2 className="font-bold text-2xl mt-10">Interest</h2>
             <p className="font-extralight text-sm">
-              I'm a strong advocate in the Singapore street dance community. In my free time, I do sharing on the
-              performing art as well as create opportunities within the community. Maybe this is where I can my passion
-              for helping people through software development.
+              I'm a strong advocate in the Singapore street dance community. In my free time, I do share in the area of
+              performing art as well as create opportunities within the community.
             </p>
           </div>
         </div>
