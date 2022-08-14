@@ -1,5 +1,8 @@
 import React from "react";
 import myAvatar from "../myAvatar.svg";
+import linkedinLogo from "../assets/icons/linkedinLogo.svg";
+import Email from "../assets/icons/email.svg";
+import Github from "../assets/icons/github.svg";
 import "./Home.css";
 
 const Home: React.FC = () => {
@@ -14,7 +17,18 @@ const Home: React.FC = () => {
           <span className="flex flex-row italic">
             <p>"Passion for Tech and Arts"</p>
           </span>
-          <span className="my-5 flex justify-evenly"></span>
+          <span className="my-5 flex justify-evenly">
+          <a href="https://www.linkedin.com/in/nicchung" target="_blank" rel="noreferrer">
+            <img src={linkedinLogo} />
+          </a>
+          <a href="mailto:iamnicholaschung@gmail.com" target="_blank" rel="noreferrer">
+            <img src={Email} />
+          </a>
+          <a href="https://github.com/nicchunglow" target="_blank" rel="noreferrer">
+            <img src={Github} />
+          </a>
+
+          </span>
         </div>
       </div>
     </div>

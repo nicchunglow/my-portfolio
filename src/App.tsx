@@ -25,7 +25,7 @@ const App = () => (
       <Home />
       <About />
       <Skills />
-      <p className="font-thin mt-20">Copyright © 2021 Nicholas Chung</p>
+      <p className="font-thin mt-20">Copyright © 2022 Nicholas Chung</p>
     </div>
   </BrowserRouter>
 );
