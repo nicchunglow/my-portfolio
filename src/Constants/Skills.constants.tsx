@@ -123,4 +123,3 @@ export const AgileArr: ISkills[] = [
     name: "Stand-Ups",
   },
 ];
-

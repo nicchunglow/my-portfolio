@@ -4,7 +4,6 @@
 
 body {
   position: sticky;
-  background: linear-gradient(0deg, rgba(255,255,252,1) 80%, rgba(190,183,164,1) 100%);
   margin: 0;
   font-family: 'Helvetica',
     sans-serif;
@@ -23,4 +22,27 @@ p {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* .gradient-background-colour{
+  background: linear-gradient(0deg, rgba(255, 255, 252, 1) 65%, #f1d872 100%);
+} */
+.gradient-background-colour-blue-reverse{
+  background: linear-gradient(0deg, #BDDCF1 0%, rgba(255, 255, 252, 1) 20%);
+}
+.gradient-background-colour-two{
+  background: linear-gradient(0deg, rgba(255, 255, 252, 1) 85%, #BDDCF1 100%);
+}
+
+.custom-shape-divider-top svg {
+  width: calc(259% + 1.3px);
+  height: 15vh;
+  transform: rotateY(180deg);
+}
+
+.shape-fill {
+  fill: #FFFFFF;
+}
+.shape-fill-reverse {
+  fill: #BDDCF1;
 }
